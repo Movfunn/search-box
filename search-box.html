@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name=viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+}
+.qsearch {
+	background: #3f51b5;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.form {
+	display: inline-block;
+}
+input {
+	font-size: 14px;
+	border: none;
+}
+input[type=text] {
+	width: 70%;
+	height: 34px;
+	padding-left: 6px;
+	transition: all .5s ease 0s;
+	border-radius: 10px 0 0 10px;
+	color: #000;
+	border-left: 2px solid #303f9f;
+	border-top: 2px solid #303f9f;
+	border-bottom: 2px solid #303f9f;
+	border-right: 2px solid #303f9f;
+	background: rgba(255,255,255,.3);
+	margin-bottom: 2px;
+}
+input[type=text]:focus {
+	background: rgba(255,255,255,.5);
+	transition: all .5s ease 5s;
+}
+input[type=submit] {
+	padding: 0 8px 0 8px;
+	height: 40px;
+	background: #303f9f;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+}
+input[type=submit]:hover {
+	background: #168coc;
+	transition: all .1s ease 1s;
+}
+</style>
+</style>
+</head>
+<body>
+<div class="qsearch">
+	 <form action="/" style="display:block;">
+         <input type="text" name="q" autocomplete="off"><input type="submit" value="Search"><br>
+     </form>
+</div>
+</body>
+</html>
